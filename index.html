@@ -11,7 +11,7 @@
     	<p>Your language is auto-detected.</p>
         
     	<!-- Person A -->
-        
+        <center>
 		<div id='from'>
 			<label id='fromLabel'>Person A's Language: </label>
 			<input class='showLanguage' id='fromLang' type='text'/>
@@ -28,14 +28,14 @@
 		
 		<label class='helpText' id='languageAvailableText'>  </label>
 		<br/>
-		<textarea class="textArea" id="srcTextArea" cols="40" rows="5" onkeyup='detect()' onchange='detect()' onmouseover='detect()'></textarea>
-		<textarea class="textArea" id="destTextArea" cols="40" rows="5"></textarea>
-		
+		<textarea class="toBeTranslated" id="srcTextArea" cols="40" rows="5" onkeyup='detect()' onchange='detect()' onmouseover='detect()' placeholder="Type a message here."></textarea>
+		<textarea class="translated" id="destTextArea" cols="40" rows="5" placeholder="See translated message here." disabled></textarea>
+		</center>
         <!-- End of Person A -->
         
-        <br/><br />
+        <!--<br/><br />
         <hr id='hline'/>
-        <br />
+        <br /> -->
         
         <!-- Person B 
         
@@ -61,8 +61,6 @@
         <br />    
         
         <!-- End of Person B -->
-        
-		<label class='helpText' id='afterText'>Thank you for using iTranslate.</label>
 	</body>
 </html>
 
