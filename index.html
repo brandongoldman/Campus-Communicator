@@ -3,26 +3,28 @@
 		<link rel="stylesheet" type="text/css" href="styles/interface.css" />
 		<script src="api/translation.js"></script>
         
-        <title>iTranslate</title>
+        <title>Campus Communicator</title>
 	</head>
 
 	<body>
-    	<h2>iTranslate</h2>
-    	<p>Your language is auto-detected.</p>
+    <br>
+    	<center><img src="logo.png" width="500" height="169" alt="Campus Communicator Logo">
+
+<!--<p align="center">Your language is auto-detected.</p>--></center>
         
     	<!-- Person A -->
         <center>
 		<div id='from'>
-			<label id='fromLabel'>Person A's Language: </label>
+			<label id='fromLabel'>Your Language: </label>
 			<input class='showLanguage' id='fromLang' type='text'/>
 		</div>
 		
 		<div id='to'>
-			<label id='toLabel'>Select Person B's Language: </label>
+			<label id='toLabel'>Your Friend's Language: </label>
 			<select class='showLanguage' id='toLanguageSelect' onchange='translate()'></select>
 		</div>
 		
-		<input id='translateButton' type='button' value='Translate' onclick='translate()'/>
+		
 		<br />
 		
 		
@@ -30,6 +32,9 @@
 		<br/>
 		<textarea class="toBeTranslated" id="srcTextArea" cols="40" rows="5" onkeyup='detect()' onchange='detect()' onmouseover='detect()' placeholder="Type a message here."></textarea>
 		<textarea class="translated" id="destTextArea" cols="40" rows="5" placeholder="See translated message here." disabled></textarea>
+        
+        <br>
+        <input id='translateButton' type='button' value='Translate' onclick='translate()'/>
 		</center>
         <!-- End of Person A -->
         

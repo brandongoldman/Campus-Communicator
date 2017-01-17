@@ -13,14 +13,20 @@ h2 {
   font-size: 32px;
 }
 
+body {
+	background-color:#0080FF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFF;
+}
+
 .showLanguage{
 	display: inline-block;
 	border-style:ridge;
 	border-width:2px;
-	border-color:#FFFFFF;
 	background-color:#FFF;
 	width:150px;
-	border-radius:8px;
+	border-radius:4px;
 	
 }
 
@@ -36,11 +42,10 @@ h2 {
 	border-radius: 8px;
 	background-color:#fee050;
 	border-width:2px;
-	border-color:#fee050;
 	width:120px;
 	height:40px;
-	margin-left:100px;
-	margin-bottom:20px;
+	/*margin-left:100px;
+	margin-bottom:20px;*/
 	font-family:Tahoma, Geneva, sans-serif;
 }
 
