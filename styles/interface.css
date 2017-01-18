@@ -1,6 +1,6 @@
 #from{
 	display: inline-block;
-	/*margin-left: 100px;*/
+	margin-left: -30px;
 	margin-top: 30px;
 	font:Tahoma, Geneva, sans-serif;
 	font-size:20px;
@@ -32,7 +32,7 @@ body {
 
 #to{
 	display: inline-block;
-	margin-left: 50px;
+	margin-left: 140px;
 	font:Tahoma, Geneva, sans-serif;
 	font-size:20px;
 }
