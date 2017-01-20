@@ -35,6 +35,8 @@ body {
 	margin-left: 140px;
 	font:Tahoma, Geneva, sans-serif;
 	font-size:20px;
+	color: #fee050;
+	/*font-weight: bold;*/
 }
 
 #translateButton{
@@ -42,11 +44,29 @@ body {
 	border-radius: 8px;
 	background-color:#fee050;
 	border-width:2px;
-	width:120px;
+	width:180px;
 	height:40px;
 	/*margin-left:100px;
 	margin-bottom:20px;*/
-	font-family:Tahoma, Geneva, sans-serif;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font:"Myriad Pro";
+	font-weight:bold;
+	font-size:14px;
+}
+
+#surveyButton{
+	border-style:ridge;
+	border-radius: 8px;
+	background-color: #0F0;
+	border-width:2px;
+	width:250px;
+	height:60px;
+	/*margin-left:100px;
+	margin-bottom:20px;*/
+	font:"Myriad Pro";
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-weight:bold;
+	font-size:14px;
 }
 
 #hline{

@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="styles/interface.css" />
-		<script src="api/translation.js"></script>
+	<script src="api/translation.js"></script>
 
     <!-- CSS for Map API -->
 		    <style>
@@ -68,9 +68,9 @@
         font-size: 15px;
         font-weight: 300;
         margin-left: 12px;
-        padding: 0 11px 0 13px;
+        padding: 0 15px 0 13px;
         text-overflow: ellipsis;
-        width: 400px;
+        width: 500px;
       }
 
       #pac-input:focus {
@@ -88,13 +88,14 @@
         width: 345px;
       }
       iframe {
-        border: 0;
-        overflow-y: hidden;
-        width: 100%;
-        height: 275px;
-        margin: 0 11px 0 13px;
+	border: 0;
+	overflow-y: hidden;
+	width: 100%;
+	height: 275px;
+	margin: 0 11px 0 13px;
+	left: auto;
       }
-    </style>
+            </style>
         
         <title>Campus Communicator</title>
 	</head>
@@ -103,7 +104,7 @@
     <br>
     	<center><img src="logo.png" width="500" height="169" alt="Campus Communicator Logo">
         <br><br>
-        <hr id='hline'/>
+    <hr id='hline'/>
         
     	<!-- Person A -->
         <center>
@@ -125,7 +126,7 @@
 		<textarea class="translated" id="destTextArea" cols="40" rows="5" placeholder="See translated message here." disabled></textarea>
         
         <br>
-        <input id='translateButton' type='button' value='Translate' onclick='translate()'/>
+        <input id='translateButton' type='button' value='Translate' onclick="translate()"/>
 		</center>
         <!-- End of Person A -->
         
@@ -143,8 +144,14 @@
 		<br>
 		<br>
 
-		<input id="pac-input" class="controls" type="text" placeholder="Search Box">
+	<input id="pac-input" class="controls" type="text" placeholder="Need to find a location? Type it here!">
     	<center><div id="map" align="center"></div></center>
+        
+        
+        <br><br>
+        <hr id='hline'/>
+        <br><br>
+    <input id='surveyButton' type="button" onclick="location.href='http://google.com';" value="Continue to Survey" />
 
     <br><br>
     <script>
