@@ -102,16 +102,18 @@
 	<body>
     <br>
     	<center><img src="logo.png" width="500" height="169" alt="Campus Communicator Logo">
+        <br><br>
+        <hr id='hline'/>
         
     	<!-- Person A -->
         <center>
 		<div id='from'>
 			<label id='fromLabel'>Your Language: </label>
-			<input class='showLanguage' id='fromLang' type='text'/>
+			<input class='showLanguage' id='fromLang' type='text'  placeholder="Detected automatically!"disabled/>
 		</div>
 		
 		<div id='to'>
-			<label id='toLabel'>Your Friend's Language: </label>
+			<label id='toLabel'>Choose Friend's Language: </label>
 			<select class='showLanguage' id='toLanguageSelect' onchange='translate()'></select>
 		</div>
 		
@@ -132,11 +134,13 @@
         <br /> -->
         
     <!-- Person B -->
-    <iframe src="personB.html" scrolling="no"></iframe>
+    <iframe src="personB.html" scrolling="no" align="middle"></iframe>
 		<!-- End of Person B -->
 
+		<br><br>
+        <hr id='hline'/>
     <!-- Begin Map -->
-
+		<br>
 		<br>
 
 		<input id="pac-input" class="controls" type="text" placeholder="Search Box">
